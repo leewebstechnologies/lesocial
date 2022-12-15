@@ -1,10 +1,4 @@
 import "./topbar.css";
-// import {
-//   SearchIcon,
-//   PersonIcon,
-//   ChatIcon,
-//   CircleNotificationsIcon,
-// } from "@mui/icons-material";
 import SearchIcon from "@mui/icons-material/Search";
 import PersonIcon from "@mui/icons-material/Person";
 import ChatIcon from "@mui/icons-material/Chat";
