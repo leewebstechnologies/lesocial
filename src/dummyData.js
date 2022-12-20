@@ -5,23 +5,13 @@ export const Users = [
     username: "Ali Ajibade",
   },
   {
-    id: 1,
-    profilePicture: "./assets/person/1.jpeg",
-    username: "Alex Brown",
-  },
-  {
-    id: 1,
-    profilePicture: "./assets/person/1.jpeg",
-    username: "Bode Badmus",
-  },
-  {
     id: 2,
     profilePicture: "./assets/person/2.jpeg",
     username: "Jide Kosoko",
   },
   {
     id: 3,
-    profilePicture: "./assets/person/3.jpeg",
+    profilePicture: "./assets/person/3.jpg",
     username: "Tunji Afolabi",
   },
   {
@@ -31,7 +21,7 @@ export const Users = [
   },
   {
     id: 5,
-    profilePicture: "./assets/person/5.jpeg",
+    profilePicture: "./assets/person/5.jpg",
     username: "Abiodun Adebayo",
   },
   {
@@ -46,17 +36,17 @@ export const Users = [
   },
   {
     id: 8,
-    profilePicture: "./assets/person/8.jpeg",
+    profilePicture: "./assets/person/8.jpg",
     username: "Olayemi Alao",
   },
   {
     id: 9,
-    profilePicture: "./assets/person/9.jpeg",
+    profilePicture: "./assets/person/9.jpg",
     username: "Lola Ibiyemi",
   },
   {
     id: 10,
-    profilePicture: "./assets/person/10.jpeg",
+    profilePicture: "./assets/person/10.png",
     username: "Harry Porter",
   },
 ];
