@@ -1,7 +1,8 @@
 import { MoreVert } from "@mui/icons-material";
 import "./post.css";
+import { Users } from "../../dummyData";
 
-const Post = () => {
+const Post = ({ post }) => {
   return (
     <div className="post">
       <div className="postWrapper">
@@ -9,30 +10,33 @@ const Post = () => {
           <div className="postTopLeft">
             <img
               className="postProfileImg"
-              src="./assets/person/1.jpg"
+              src= {Users.filter((u) => u.id === post?.userId)[0].profilePicture}
               alt=""
             />
-            <span className="postUsername">Muhammar Gaddafi</span>
-            <span className="postDate">5 mins ago</span>
+            <span className="postUsername">
+              {Users.filter((u) => u.id === post?.userId)[0].username}
+            </span>
+            <span className="postDate">{post.date}</span>
           </div>
           <div className="postTopRight">
             <MoreVert />
           </div>
         </div>
         <div className="postCenter">
-            <span className="postText">Hey! Its my first post.</span>
-            <img className="postImg" src="./assets/post/1.jpeg" alt="" />
+          <span className="postText">{post.desc}</span>
+          <img className="postImg" src={post.photo} alt="" />
         </div>
         <div className="postBottom">
-            <div className="postBottomLeft">
-                <img className="likeIcon" src="./assets/like.png" alt="" />
-                <img className="heartIcon" src="./assets/heart.png" alt="" />
-                <span className="postLikeCounter">32 people like it.</span>
-
-            </div>
-            <div className="postBottomRight">
-                <span className="postCommentText">9 comments</span>
-            </div>
+          <div className="postBottomLeft">
+            <img className="likeIcon" src="./assets/like.png" alt="" />
+            <img className="heartIcon" src="./assets/heart.png" alt="" />
+            <span className="postLikeCounter">
+              {post.like}32 people like it.
+            </span>
+          </div>
+          <div className="postBottomRight">
+            <span className="postCommentText">{post.comment}9 comments</span>
+          </div>
         </div>
       </div>
     </div>
