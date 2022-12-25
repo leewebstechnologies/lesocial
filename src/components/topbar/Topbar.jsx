@@ -8,7 +8,7 @@ const Topbar = () => {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Lesocial</span>
+        <span className="logo">Facebook</span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
@@ -33,7 +33,7 @@ const Topbar = () => {
             <ChatIcon />
             <div className="topbarIconBadge">2</div>
           </div>
-          <div className="topbarIconItem3">
+          <div className="topbarIconItem">
             <CircleNotificationsIcon />
             <div className="topbarIconBadge">1</div>
           </div>

@@ -72,7 +72,6 @@
   position: relative;
 }
 
-
 .topbarIconBadge {
   width: 15px;
   height: 15px;
@@ -100,7 +99,6 @@
   .logo {
     font-size: 12px;
     margin-left: 12px;
-
   }
   .searchInput {
     width: 10px;
@@ -124,7 +122,6 @@
     display: none;
   }
 
-
   .topbarLinks {
     margin-right: 30px;
   }
@@ -132,5 +129,4 @@
   .topbarIconItem3 {
     margin-right: 30px;
   }
-
 }
