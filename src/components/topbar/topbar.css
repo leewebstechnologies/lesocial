@@ -95,3 +95,42 @@
   object-fit: cover;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 12px;
+    margin-left: 12px;
+
+  }
+  .searchInput {
+    width: 10px;
+    margin-left: 10px;
+    display: none;
+  }
+
+  .searchbar {
+    margin-left: 10px;
+    width: 50px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .topbarContainer {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .topbarImg {
+    display: none;
+  }
+
+
+  .topbarLinks {
+    margin-right: 30px;
+  }
+
+  .topbarIconItem3 {
+    margin-right: 30px;
+  }
+
+}

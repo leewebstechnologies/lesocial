@@ -33,7 +33,7 @@ const Topbar = () => {
             <ChatIcon />
             <div className="topbarIconBadge">2</div>
           </div>
-          <div className="topbarIconItem">
+          <div className="topbarIconItem3">
             <CircleNotificationsIcon />
             <div className="topbarIconBadge">1</div>
           </div>

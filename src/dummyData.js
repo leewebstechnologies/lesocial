@@ -2,32 +2,32 @@ export const Users = [
   {
     id: 1,
     profilePicture: "./assets/person/1.jpg",
-    username: "Ali Ajibade",
+    username: "Muhammar Gadaffi",
   },
   {
     id: 2,
     profilePicture: "./assets/person/2.jpeg",
-    username: "Jide Kosoko",
+    username: "Bright Smith",
   },
   {
     id: 3,
     profilePicture: "./assets/person/3.jpg",
-    username: "Tunji Afolabi",
+    username: "Henry Stone",
   },
   {
     id: 4,
     profilePicture: "./assets/person/4.jpeg",
-    username: "Dele Osabiya",
+    username: "Mary Osabiya",
   },
   {
     id: 5,
     profilePicture: "./assets/person/5.jpg",
-    username: "Abiodun Adebayo",
+    username: "Frank Odey",
   },
   {
     id: 6,
     profilePicture: "./assets/person/6.jpeg",
-    username: "Jimi Agbaje",
+    username: "Bola Agbaje",
   },
   {
     id: 7,
@@ -50,7 +50,6 @@ export const Users = [
     username: "Harry Porter",
   },
 ];
-
 
 export const Posts = [
   {
